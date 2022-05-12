@@ -25,9 +25,9 @@ let tags = {
 const defaultMenu = {
   before: `%readmore`.trimStart(),
   header: '🎗 *🧧 %category 𝗦𝗜𝗗𝗘 🧧*\n│',
-    body: '🐣 %cmd %islimit %isPremium',
-  footer: '│\n 💜💜💜💜💜💜💜💜💜💜💜💜\n',
-  after: `  ${'```✨kakashi botz. inc✨```'}`,
+    body: '🎯 %cmd %islimit %isPremium',
+  footer: '│\n 🎗©Zero two 2022🎯\n',
+  after: `  ${'```✨ʜᴏᴩᴇ ʏᴏᴜ ᴇɴᴊᴏʏɪɴɢ ᴛʜᴇ ʙᴏᴛ✨```'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -129,11 +129,14 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const menu = './media/menu.jpg'
     const valor = './media/valor.jpg'
     conn.sendButton(m.chat,
-`👋(♥ω♥) 𝙊𝙝𝙖𝙮𝙤 𝘿𝙖𝙧𝙡𝙞𝙣𝙜 ${name}
+`𝕂𝕒𝕜𝕒𝕤𝕙𝕚 𝕓𝕠𝕥𝕫. 𝕚𝕟𝕔 🚀🌟
 
-𝙞 𝙖𝙢 𝙯𝙚𝙧𝙤 𝙩𝙬𝙤 𝙗𝙤𝙩𝙩𝙤
-
-𝙈𝙖𝙙𝙚 𝙗𝙮 𝙠𝙖𝙠𝙖𝙨𝙝𝙞 𝙗𝙤𝙩𝙯. 𝙞𝙣𝙘`, text.trim(), `${timeimg()}`, [
+  𝙉𝙤𝙩𝙚𝙨📝
+ 🌟 𝙄 𝙖𝙢 𝙖 𝙤𝙛𝙛𝙞𝙘𝙞𝙖𝙡 𝙬𝙝𝙖𝙩𝙖𝙥𝙥 𝙗𝙤𝙩 𝙗𝙮 𝙠𝙖𝙠𝙖𝙨𝙝𝙞 𝙗𝙤𝙩𝙯. 𝙞𝙣𝙘🚀
+ 🌟  𝙄𝙛  𝙨𝙚𝙚 𝙖𝙣𝙮 𝙗𝙪𝙜 𝙩𝙝𝙚𝙣 𝙩𝙚𝙡𝙡 𝙤𝙬𝙣𝙚𝙧 
+ 🌟 𝙎𝙩𝙖𝙮 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙩𝙤 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 
+    
+⭐ 𝗲𝗻𝗷𝗼𝘆 𝘇𝗲𝗿𝗼 𝘁𝘄𝗼 𝗯𝗼𝘁𝘁𝗼⭐`, text.trim(), `${timeimg()}`, [
       [`ʙᴏᴛ ɪɴғᴏ`, `${usedPrefix}botinfo`],
       [`ᴩʀᴏғɪʟᴇ`, `${usedPrefix}profile`]
     ], m, {asLocation: true})
